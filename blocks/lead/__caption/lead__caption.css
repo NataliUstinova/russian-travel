@@ -3,5 +3,43 @@
   line-height: 1.4;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  align-self: start;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+@media screen /* от стандартных ноутбуков и до бесконечности */
+  and (min-device-width: 1280px) {
+    .lead__caption {
+      width: 76%;
+    }
+}
+
+@media screen /* для небольших ноутбуков */
+  and (min-device-width: 1024px)
+  and (max-device-width: 1280px) {
+    .lead__caption {
+      width: 90%;
+    }
+}
+
+@media screen /* от вертикального до горизонтального положения планшета */
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .lead__caption {
+      padding-left: 24px;
+    }
+}
+
+@media screen /* от большого смартфона до вертикального положения планшета */
+  and (min-device-width: 425px)
+  and (max-device-width: 768px) {
+    .lead__caption {
+      padding-left: 20px;
+    }
+}
+
+@media screen /* мобильные устройства */
+  and (max-device-width: 425px) {
+    .lead__caption {
+      padding-left: 16px;
+    }
 }
