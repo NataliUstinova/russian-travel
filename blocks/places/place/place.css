@@ -1,0 +1,12 @@
+.place {
+  list-style: none;
+  margin: 0;
+  padding: 0 148px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
+  grid-template-areas:
+  "title website"
+  "image paragraph";
+  row-gap: 80px;
+}
