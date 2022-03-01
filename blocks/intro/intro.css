@@ -1,0 +1,37 @@
+@media screen /* от стандартных ноутбуков и до бесконечности */
+  and (min-device-width: 1280px) {
+    .intro {
+      margin-left: 11%;
+    }
+}
+
+@media screen /* для небольших ноутбуков */
+  and (min-device-width: 1024px)
+  and (max-device-width: 1280px) {
+    .intro {
+      margin-left: 4.6%;
+    }
+}
+
+@media screen /* от вертикального до горизонтального положения планшета */
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .intro {
+      margin-left: 3%;
+    }
+}
+
+@media screen /* от большого смартфона до вертикального положения планшета */
+  and (min-device-width: 425px)
+  and (max-device-width: 768px) {
+    .intro {
+      margin-left: 2%;
+    }
+}
+
+@media screen /* мобильные устройства */
+  and (max-device-width: 425px) {
+    .intro {
+      margin-left: 5%;
+    }
+}
