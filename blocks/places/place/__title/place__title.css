@@ -16,8 +16,7 @@
     }
 }
 
-@media screen /* от большого смартфона до вертикального положения планшета */
-  and (min-device-width: 425px)
+@media screen /* от маленького смартфона до вертикального положения планшета */
   and (max-device-width: 768px) {
     .place__title {
       font-size: 32px;
