@@ -3,8 +3,3 @@
   width: 100%;
   object-fit: cover;
 }
-@media screen and (max-width: 767px) {
-  .places__image {
-/* надо убрать слева отступ */
-  }
-}

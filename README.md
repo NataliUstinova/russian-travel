@@ -25,5 +25,5 @@
 * Работа с расширением Pixel Perfect
 
 **<a name="GHPages"></a>GH Pages**
-* [Ссылка на публикацию проекта](https://github.com/NataliUstinova/travel-project/)
+* [Ссылка на публикацию проекта](https://nataliustinova.github.io/travel-project/)
 
