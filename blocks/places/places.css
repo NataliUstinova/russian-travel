@@ -1,6 +1,45 @@
 .places {
   list-style: none;
   margin: 0;
-  padding: 0 148px;
+  padding: 0 0 92px 0;
 }
 
+@media screen /* от стандартных ноутбуков и до бесконечности */
+  and (min-device-width: 1280px) {
+    .places {
+      margin-left: 11%;
+    }
+}
+
+@media screen /* для небольших ноутбуков */
+  and (min-device-width: 1024px)
+  and (max-device-width: 1280px) {
+    .places {
+      margin-left: 4.6%;
+    }
+}
+
+@media screen /* от вертикального до горизонтального положения планшета */
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .places {
+      margin-left: 3%;
+    }
+}
+
+@media screen /* от большого смартфона до вертикального положения планшета */
+  and (min-device-width: 425px)
+  and (max-device-width: 768px) {
+    .places {
+      margin-left: 2%;
+      padding-bottom: 90px;
+    }
+}
+
+@media screen /* мобильные устройства */
+  and (max-device-width: 425px) {
+    .places {
+      margin-left: 5%;
+      padding-bottom: 66px;
+    }
+}

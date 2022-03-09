@@ -1,9 +1,38 @@
 .place {
   display: grid;
-  grid-template-columns: 460px auto;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
   grid-template-areas:
   "title website"
   "image text";
   gap: 48px 40px;
   margin-bottom: 80px;
+}
+
+
+@media screen /* для небольших ноутбуков */
+  and (min-device-width: 1024px)
+  and (max-device-width: 1280px) {
+    .place {
+      grid-template-columns: 440px auto;
+    }
+}
+
+@media screen /* от вертикального до горизонтального положения планшета */
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .place {
+      grid-template-columns: 340px auto;
+    }
+}
+
+@media screen /* мобильные устройства */
+  and (max-device-width: 425px) {
+    .place {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-areas:
+      "title"
+      "website"
+      "image"
+      "text";
+    }
 }
