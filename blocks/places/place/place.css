@@ -29,7 +29,7 @@
 }
 
 @media screen /* мобильные устройства */
-  and (max-device-width: 425px) {
+  and (max-device-width: 767px) {
     .place {
       margin-bottom: 50px;
       grid-template-columns: 100%;
