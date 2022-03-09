@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 92px 0 24px 0;
+  margin: 0 auto;
+  margin: 0 11%;
+}
+
+@media screen   /* для небольших ноутбуков */
+  and (min-device-width: 1024px)
+  and (max-device-width: 1280px) {
+    .footer {
+      padding-top: 80px;
+      margin: 0 4.6%;
+  }
+}
+
+@media screen /* от вертикального до горизонтального положения планшета */
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .footer {
+      padding-top: 76px;
+      margin: 0 3%;
+  }
+}
+
+@media screen /* мобильные устройства */
+  and (max-device-width: 767px) {
+    .footer {
+      padding-top: 65px;
+      flex-direction: column;
+      gap: 33px;
+      align-items: flex-start;
+      margin: 0 2%;
+    }
+}
