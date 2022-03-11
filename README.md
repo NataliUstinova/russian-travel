@@ -23,6 +23,7 @@
 * Подключение шрифтов
 * Вычисляемые значения minmax, фракции
 * Работа с расширением Pixel Perfect
+* Анимация по наведению
 
 **<a name="GHPages"></a>GH Pages**
 * [Ссылка на публикацию проекта](https://nataliustinova.github.io/travel-project/)
