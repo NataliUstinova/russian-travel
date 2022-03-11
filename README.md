@@ -26,5 +26,5 @@
 * Анимация по наведению
 
 **<a name="GHPages"></a>GH Pages**
-* [Ссылка на публикацию проекта](https://nataliustinova.github.io/travel-project/)
+* [Ссылка на публикацию проекта](https://nataliustinova.github.io/russian-travel/)
 
