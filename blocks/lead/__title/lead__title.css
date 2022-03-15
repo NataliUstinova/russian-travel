@@ -37,9 +37,11 @@
     max-width: calc(100% - 16px * 2);
     font-size: 40px;
   }
+}
 
 @media screen and (max-width: 300px) {
     .lead__title {
       max-width: calc(100% - 16px * 2);
       font-size: 36px;
+  }
 }
