@@ -8,11 +8,6 @@
   text-align: right;
 }
 
-.header__lang-link_selected {
-  text-decoration-line: underline;
-  text-underline-position: under;
-}
-
 @media screen /* мобильные устройства */
   and (max-device-width: 425px) {
     .header__lang-link {

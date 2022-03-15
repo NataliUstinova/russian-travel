@@ -1,6 +1,7 @@
 .lead__image {
   display: block;
   margin: 0 auto;
+  width: 100%;
 }
 
 @media screen /* от стандартных ноутбуков и до бесконечности */
@@ -18,9 +19,3 @@
     }
 }
 
-@media screen /* от мобильных устройств до горизонтального положения планшета */
-  and (max-device-width: 1024px) {
-    .lead__image {
-      width: 100%;
-    }
-}

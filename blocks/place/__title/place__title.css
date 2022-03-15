@@ -19,6 +19,8 @@
 @media screen /* от маленького смартфона до вертикального положения планшета */
   and (max-device-width: 768px) {
     .place__title {
+      width: calc(100% - 16px * 2);
+      margin-left: 16px;
       font-size: 32px;
       line-height: 1.09;
     }
