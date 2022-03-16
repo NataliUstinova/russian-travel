@@ -5,38 +5,38 @@
 }
 
 @media screen /* от стандартных ноутбуков и до бесконечности */
-  and (min-device-width: 1280px) {
+  and (min-width: 1280px) {
     .intro__text {
       max-width: 53%;
   }
 }
 
 @media screen /* для небольших ноутбуков */
-  and (min-device-width: 1024px)
-  and (max-device-width: 1280px) {
+  and (min-width: 1024px)
+  and (max-width: 1280px) {
     .intro__text {
       max-width: 67%;
     }
 }
 
 @media screen /* от вертикального до горизонтального положения планшета */
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px) {
+  and (min-width: 768px)
+  and (max-width: 1024px) {
     .intro__text {
       max-width: 75%;
     }
 }
 
 @media screen /* от большого смартфона до вертикального положения планшета */
-  and (min-device-width: 425px)
-  and (max-device-width: 768px) {
+  and (min-width: 425px)
+  and (max-width: 768px) {
     .intro__text {
       max-width: 92%;
     }
 }
 
 @media screen /* мобильные устройства */
-  and (max-device-width: 425px) {
+  and (max-width: 425px) {
     .intro__text {
       max-width: 90%;
     }

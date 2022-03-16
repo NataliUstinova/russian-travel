@@ -9,8 +9,8 @@
 
 
 @media screen /* для небольших ноутбуков */
-  and (min-device-width: 1024px)
-  and (max-device-width: 1280px) {
+  and (min-width: 1024px)
+  and (max-width: 1280px) {
     .photo-grid {
       gap: 14px;
       grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -18,21 +18,21 @@
 }
 
 @media screen /* от вертикального до горизонтального положения планшета */
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px) {
+  and (min-width: 768px)
+  and (max-width: 1024px) {
     .photo-grid {
       padding: 88px 24px;
     }
 }
 
 @media screen /* от большого смартфона до вертикального положения планшета */
-  and (min-device-width: 425px)
-  and (max-device-width: 768px) {
+  and (min-width: 425px)
+  and (max-width: 768px) {
 
 }
 
 @media screen /* мобильные устройства */
-  and (max-device-width: 425px) {
+  and (max-width: 425px) {
     .photo-grid {
       gap: 12px;
       padding: 64px 16px;
